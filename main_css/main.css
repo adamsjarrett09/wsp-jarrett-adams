@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	height: 800px;
+	width: 900px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	background: url(file:///Macintosh%20HD/Users/jarrettadams/wsp-jarrett-adams/main_images/main_page_background.png) no-repeat;
+}
+
+#wrapper {
+	height: 750px;
+	width: 850px
+	margin: 25px;
+	padding: 10px;
+}
+	
