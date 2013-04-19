@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--------Body--------*/
+
+body {
+	background: #1E5799;
+}
+
+#header {
+	font-family: 'Merriweather Sans', sans-serif;
+	padding-left: 415px;
+}
+
+#container {
+	width: 720px;
+	border: 7px solid #dedede;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+	margin-left: 300px;
+	padding: 10px;
+}
+
+p {
+	font-family: 'ABeeZee', sans-serif;
+	color: #dedede;
+}
+
+#user_info {
+	font-weight: bold;
+}
+
+h1 {
+   color: #dedede;
+   text-shadow: rgb(187, 187, 187) 0px 1px 0px,
+   rgb(181, 181, 181) 0px 2px 0px,
+   rgb(172, 172, 172) 0px 3px 0px,
+   rgb(160, 160, 160) 0px 4px 0px,
+   rgb(145, 145, 145) 0px 5px 0px,
+   rgb(127, 127, 127) 0px 6px 0px,
+   rgba(0, 0, 0, 0.199219) 0px 7px 1px,
+   rgba(0, 0, 0, 0.296875) 0px 8px 6px;
+}	
+
+h2 {
+	color: #dedede;
+	font-family: 'Merriweather Sans', sans-serif;
+	text-decoration: underline;
+}
+
+#divider {
+	padding-left: 345px;
+}
