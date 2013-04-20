@@ -40,7 +40,13 @@ h1 {
 	float: left;	
 }
 
-
+#wireframes {
+	clear: left;
+	width: 415px;
+	height: 215px;
+	float: left;
+}
+	
 
 
 	
