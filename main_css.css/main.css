@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: url(file:///Macintosh%20HD/Users/jarrettadams/wsp-jarrett-adams/main_images/main_page_background.png) center no-repeat;
+	height: 100%;
+	width: 100%;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#wrapper {
+	height: 750px;
+	width: 1100px;
+	margin: auto;
+	padding: 10px;
+}
+
+#heading {
+    color: #FFF;
+	width: 850px;
+	height: 50px;
+	margin: auto;
+	text-align: right;
+}
+
+h1 {
+	font-size: 28px;
+	text-shadow: 4px 4px 4px #222;
+}
+
+#stlye tiles {
+	width: 450px;
+	float: left;
+}
+	
