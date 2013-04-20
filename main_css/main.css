@@ -29,18 +29,20 @@ h1 {
 }
 
 #cloud1 {
+	margin-left: 110px;
 	width: 415px;
 	height: 215px;
 	float: left;
 }
 
 #cloud2 {
+	margin-left: 30px;
 	width: 415px;
 	height: 215px;
 	float: left;	
 }
 
-#wireframes {
+#cloud3 {
 	clear: left;
 	width: 415px;
 	height: 215px;
