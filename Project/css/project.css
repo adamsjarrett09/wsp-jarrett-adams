@@ -4,18 +4,166 @@
 /*--------Body--------*/
 body {
 	max-width: 100%;
-	height: 720px;
-	background: url(../images/big_state_background.png) no-repeat center fixed;
+	height: 100%;
+	background: background: rgb(211,139,93); /* Old browsers */
+
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZDM4YjVkIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDklIiBzdG9wLWNvbG9yPSIjZjBiNzgxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZiZGFiMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+
+background: -moz-linear-gradient(45deg,  rgba(211,139,93,1) 0%, rgba(240,183,129,1) 49%, rgba(251,218,177,1) 100%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(211,139,93,1)), color-stop(49%,rgba(240,183,129,1)), color-stop(100%,rgba(251,218,177,1))); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(45deg,  rgba(211,139,93,1) 0%,rgba(240,183,129,1) 49%,rgba(251,218,177,1) 100%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(45deg,  rgba(211,139,93,1) 0%,rgba(240,183,129,1) 49%,rgba(251,218,177,1) 100%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(45deg,  rgba(211,139,93,1) 0%,rgba(240,183,129,1) 49%,rgba(251,218,177,1) 100%); /* IE10+ */
+
+background: linear-gradient(45deg,  rgba(211,139,93,1) 0%,rgba(240,183,129,1) 49%,rgba(251,218,177,1) 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d38b5d', endColorstr='#fbdab1',GradientType=1 ) no repeat; /* IE6-8 fallback on horizontal gradient */
+}
+
+p {
+	color: #fff;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+#header_container {
+	height: 10%;
+	width: 89.98%;
+	margin-top: 5%;
+	margin-left: 5%;
+	background: #fff;
+}
+
+.footer_nav {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	display: inline;
+	padding-left: 0.5%;
+	color: #fff;
+	clear: left;
+}
+
+#main_nav {
+}
+
+.main_nav a {
+	text-decoration: none;
+}
+
+.main_nav a:link {
+	color: #ffb389;
+}
+
+.main_nav a:visited {
+	color: #ffb389;
+}
+
+.main_nav a:hover {
+	color: #FFF;
+}
+
+.main_nav a:active {
+	color: #ffb389;
+}
+
+#logo {
+	max-width: 100%;
 }
 
 #wrapper {
-	max-width: 100%;
-	max-height: 25%;
+	max-width: 90%;
+	max-height: 70%;
 	margin: 0 auto; 
-	background: url(../images/wrapper_1.png) no-repeat center fixed;
+	background: #333;
 }
 
-.logo {
-	max-width: 100%;
+#slideshow {
+	height: 400px;
+	width: 75%;
+	background: #eee;
+	float: left;
+}
+
+#welcome {
+	float: left;
+	height: 400px;
+	width: 25%;
+	background: #ddd;
+}
+
+#footer {
+	clear: left;
+	float: left;
+	height: 3%;
+	width: 90%;
+	background: rgba(0,0,0,0.3);
 	margin-left: 5%;
 }
+
+#left_part {
+	float: left;
+	width: 40%;
+	padding-left: 2%;
+} 
+
+.copyright1 {
+	color: #ffb389;
+	padding-top: 2.5%;
+	padding-left: 3%;
+	font-weight: bold;
+	line-height: inherit;
+	font-size: 10px;
+	padding-left: 5.5%;
+}
+
+#bottom_nav {
+	float: left;
+	width: 50%;
+	text-align: right;
+}
+
+.footer_nav {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	display: inline;
+	padding-left: 0.5%;
+	color: #fff;
+	clear: left;
+}
+
+.footer_nav a {
+	text-decoration: none;
+}
+
+.footer_nav a:link {
+	color: #ffb389;
+}
+
+.footer_nav a:visited {
+	color: #ffb389;
+}
+
+.footer_nav a:hover {
+	color: #FFF;
+}
+
+.footer_nav a:active {
+	color: #ffb389;
+}
+
