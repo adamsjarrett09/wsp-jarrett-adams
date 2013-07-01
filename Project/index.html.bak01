@@ -21,34 +21,36 @@
             	<img src="images/horizontal_rule.png" width="1430px" height="15px">
             </section>
             <div id="image_slider">
-            	<img src="images/big_state_slider.gif">
+            	
             </div>
         	<div id="history">
         		<h2>Big State Drugs History</h2>
         			<p>Historically, Big State Drugs is located on what was originally developed by Charles Stovall for his Banner Mercantile store, a large frame building at the time. Circa 1914 C.T. Lucas, a former employee, turned renter, turned owner, moved the frame store located at the corner of First and Main. He built the permanent brick building in its place where Big State currently resides. Mr. Lucas also used the vacant land just south of the building as a poultry farm. He owned and operated the Banner Merchantile until the early 1930's.</p>
         	</div>
-        	<div id="article1">
-            		<p>Welcome to Big State Drug. We are a family owned pharmacy, soda fountain and grill that has been operating since 1948.<br><a href="menu_3.html"><img src="images/more_button.png" width="65" height="21"></a></p>
-            </div>
-           	<div id="article2">
-            		<p>We offer a wide range of services from filling perscriptions in our pharmacy to making burgers and your favorite flavor milkshakes in our old fashioned soda fountain and grill.<br><a href="menu_2.html"><img src="images/more_button.png" width="65" height="21"></a></p>
-           	</div>
-           	<div id="article3">
-            		<p>In addition to being a full service pharmacy we offer special order items, compounded drugs, and delivery. We offer a large selection of durable medical equipment as well as over the counter medications, health and beauty aids.<a href="contact.html"><img src="images/more_button.png" width="65" height="21"></a></p>
-           	</div>
-           	<div id="article4">
-            		<p>We also offer a wide array of gifts, collectables, greeting cards, and complementary gift wrapping. See the location link above for hours and a map.<br><a href="map.html"><img src="images/more_button.png" width="65" height="21"></a></p>
-           	</div>
+        	<section>
+        		<article>
+            		<p>Welcome to Big State Drug. We are a family owned pharmacy, soda fountain and grill that has been operating since 1948.</p>
+            	</article>
+            	<article>
+            		<p>We offer a wide range of services from filling perscriptions in our pharmacy to making burgers and your favorite flavor milkshakes in our old fashioned soda fountain and grill.</p>
+            	</article>
+            	<article>
+            		<p>In addition to being a full service pharmacy we offer special order items, compounded drugs, and delivery. We offer a large selection of durable medical equipment as well as over the counter medications, health and beauty aids.</p>
+            	</article>
+            	<article>
+            		<p>We also offer a wide array of gifts, collectables, greeting cards, and complementary gift wrapping. See the location link above for hours and a map.</p>
+            	</article>
+        	</section>
         </section>
-		<div id="footer">
-        	<h3>&copy;2013 Big State Drug</h3>
-        	<footer_nav>
+		<footer>
+        	<p>&copy;2013 Big State Drug</p>
+        	<nav>
         		<ul>
             		<li><a href="index.html">Home</a></li>
                 	<li><a href="menu.html">Menu</a></li>
                 	<li><a href="contact.html">Contact</a></li>
             	</ul>
-        	</footer_nav>
-		</div>
+        	</nav>
+		</footer>
 	</body>
 </html>

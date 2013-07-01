@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<link rel="stylesheet" type="text/css" href="css/project.css" />
+		<title>Big State Drugs</title>
+	
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="engine1//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+	<body>
+    	<header>
+        	<a href="index.html"><img src="images/big-state-logo.png" width="250px" height="145px" alt="Big State Drugs" title="Big State Drugs"></a>
+            <nav1>
+        		<ul>
+            		<li><a href="index.html">Home</a></li>
+                	<li><a href="menu.html">Menu</a></li>
+                	<li><a href="contact.html">Contact</a></li>
+           		</ul>
+       		</nav1>
+        </header>
+        <section id="container">
+        	<section id="red divider">
+            	<img src="images/horizontal_rule.png" width="1430px" height="15px">
+            </section>
+            
+
+<!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/big_state_drugs_image_1.jpg" alt="big_state_drugs_image_1" title="big_state_drugs_image_1" id="wows1_0"/></li>
+<li><img src="data1/images/big_state_drugs_image_2.jpg" alt="big_state_drugs_image_2" title="big_state_drugs_image_2" id="wows1_1"/></li>
+<li><img src="data1/images/big_state_drugs_image_3.jpg" alt="big_state_drugs_image_3" title="big_state_drugs_image_3" id="wows1_2"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="big_state_drugs_image_1"><img src="data1/tooltips/big_state_drugs_image_1.jpg" alt="big_state_drugs_image_1"/>1</a>
+<a href="#" title="big_state_drugs_image_2"><img src="data1/tooltips/big_state_drugs_image_2.jpg" alt="big_state_drugs_image_2"/>2</a>
+<a href="#" title="big_state_drugs_image_3"><img src="data1/tooltips/big_state_drugs_image_3.jpg" alt="big_state_drugs_image_3"/>3</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">jQuery Carousel</a> by WOWSlider.com v3.8m</span>
+	<a href="#" class="ws_frame"></a>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1//wowslider.js"></script>
+	<script type="text/javascript" src="engine1//script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div id="image_slider">
+            	
+            </div>
+        	<div id="history">
+        		<h2>Big State Drugs History</h2>
+        			<p>Historically, Big State Drugs is located on what was originally developed by Charles Stovall for his Banner Mercantile store, a large frame building at the time. Circa 1914 C.T. Lucas, a former employee, turned renter, turned owner, moved the frame store located at the corner of First and Main. He built the permanent brick building in its place where Big State currently resides. Mr. Lucas also used the vacant land just south of the building as a poultry farm. He owned and operated the Banner Merchantile until the early 1930's.</p>
+        	</div>
+        	<section>
+        		<article>
+            		<p>Welcome to Big State Drug. We are a family owned pharmacy, soda fountain and grill that has been operating since 1948.</p>
+            	</article>
+            	<article>
+            		<p>We offer a wide range of services from filling perscriptions in our pharmacy to making burgers and your favorite flavor milkshakes in our old fashioned soda fountain and grill.</p>
+            	</article>
+            	<article>
+            		<p>In addition to being a full service pharmacy we offer special order items, compounded drugs, and delivery. We offer a large selection of durable medical equipment as well as over the counter medications, health and beauty aids.</p>
+            	</article>
+            	<article>
+            		<p>We also offer a wide array of gifts, collectables, greeting cards, and complementary gift wrapping. See the location link above for hours and a map.</p>
+            	</article>
+        	</section>
+        </section>
+		<footer>
+        	<p>&copy;2013 Big State Drug</p>
+        	<nav>
+        		<ul>
+            		<li><a href="index.html">Home</a></li>
+                	<li><a href="menu.html">Menu</a></li>
+                	<li><a href="contact.html">Contact</a></li>
+            	</ul>
+        	</nav>
+		</footer>
+	</body>
+</html>
